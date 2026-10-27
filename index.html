@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Secure Checkout</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script defer src="/checkout.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <section class="card">
+      <div class="brand"><span class="shield">✓</span><div><h1>Secure Checkout</h1><p>Protected by Razorpay</p></div></div>
+      <div class="amount-block"><p class="eyebrow">PAYMENT FOR</p><h2 id="product-name">Website Access</h2><p class="subtle">One-time payment · INR</p></div>
+      <div class="trust"><span>🔒</span><span>Your payment details are handled securely by Razorpay Checkout.</span></div>
+      <button id="pay-button" class="primary">Pay ₹499 securely</button>
+      <p id="message" class="message" role="status" aria-live="polite"></p>
+      <p class="fineprint">Demo project. Configure your own Razorpay account and price before using it live.</p>
+    </section>
+  </main>
+</body>
+</html>
