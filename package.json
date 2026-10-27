@@ -1,0 +1,14 @@
+{
+  "name": "razorpay-payment-verification",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secure Razorpay checkout demo with server-side verification and webhook",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "razorpay": "^2.9.6"
+  }
+}
